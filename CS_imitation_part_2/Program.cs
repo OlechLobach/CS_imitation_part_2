@@ -1,10 +1,19 @@
-﻿namespace CS_imitation_part_2
+﻿using System;
+using ArrayLibrary;
+namespace ArrayApp
 {
-    internal class Program
+    class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            Console.WriteLine("Hello, World!");
+            int[] array = { 1, 2, 3, 4, 5 };
+            var arrayObj = new ArrayLibrary.Array(array);
+
+            Console.WriteLine($"Max: {arrayObj.Max()}");
+            Console.WriteLine($"Min: {arrayObj.Min()}");
+            Console.WriteLine($"Avg: {arrayObj.Avg()}");
+            Console.WriteLine($"Search for 3: {arrayObj.Search(3)}");
+            Console.WriteLine($"Search for 6: {arrayObj.Search(6)}");
         }
     }
 }

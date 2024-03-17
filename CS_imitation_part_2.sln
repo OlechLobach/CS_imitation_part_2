@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_imitation_part_2", "CS_imitation_part_2\CS_imitation_part_2.csproj", "{2B687312-6176-45B9-B8CF-44B3465FDA50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "CS_imitation_part_2\Domain\Domain.csproj", "{D8EBBA08-6A48-45A3-80E3-ADA2C95C36AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B687312-6176-45B9-B8CF-44B3465FDA50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B687312-6176-45B9-B8CF-44B3465FDA50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B687312-6176-45B9-B8CF-44B3465FDA50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B687312-6176-45B9-B8CF-44B3465FDA50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8EBBA08-6A48-45A3-80E3-ADA2C95C36AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8EBBA08-6A48-45A3-80E3-ADA2C95C36AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8EBBA08-6A48-45A3-80E3-ADA2C95C36AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8EBBA08-6A48-45A3-80E3-ADA2C95C36AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE96483E-E07D-47D2-A9AC-6B9AA6F605A4}
+	EndGlobalSection
+EndGlobal
